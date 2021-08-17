@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<ArrayOfCocktail>
+  <Cocktail>
+    <Id>LOC1</Id>
+    <Name>MyFirstCocktail</Name>
+    <Category>Water</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alchoholic</Alcoholic>
+    <Instructions>Pour water into glass</Instructions>
+    <Ingredients>
+      <string>water</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+    </Measurements>
+  </Cocktail>
+  <Cocktail>
+    <Id>LOC2</Id>
+    <Name>MyFirstCocktail</Name>
+    <Category>Water</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alchoholic</Alcoholic>
+    <Instructions>Pour water into glass</Instructions>
+    <Ingredients>
+      <string>water</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+    </Measurements>
+  </Cocktail>
+    <Cocktail>
+    <Id>LOC3</Id>
+    <Name>MyFirstCocktail</Name>
+    <Category>Water</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alchoholic</Alcoholic>
+    <Instructions>Pour water into glass</Instructions>
+    <Ingredients>
+      <string>water</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+    </Measurements>
+  </Cocktail>
+    <Cocktail>
+    <Id>LOC4</Id>
+    <Name>MyFirstCocktail</Name>
+    <Category>Water</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alchoholic</Alcoholic>
+    <Instructions>Pour water into glass</Instructions>
+    <Ingredients>
+      <string>water</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+    </Measurements>
+  </Cocktail>
+  <Cocktail>
+    <Id>LOC5</Id>
+    <Name>MyFirstCocktail</Name>
+    <Category>Water</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alchoholic</Alcoholic>
+    <Instructions>Pour water into glass</Instructions>
+    <Ingredients>
+      <string>water</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+    </Measurements>
+  </Cocktail>
+    <Cocktail>
+    <Id>LOC1337</Id>
+    <Name>MyFirstCocktail</Name>
+    <Category>Water</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alchoholic</Alcoholic>
+    <Instructions>Pour water into glass</Instructions>
+    <Ingredients>
+      <string>water</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+    </Measurements>
+  </Cocktail>
+</ArrayOfCocktail>

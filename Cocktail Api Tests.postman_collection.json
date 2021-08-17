@@ -1,0 +1,260 @@
+{
+	"info": {
+		"_postman_id": "4d481a19-d86b-450e-8cee-71651aea5cfb",
+		"name": "Cocktail Api Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddUpdateDelete",
+			"item": [
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Melya\",\"category\":\"Coffee / Tea\",\"glass\":\"Coffee mug\",\"alcoholic\":\"Non alcoholic\",\"instructions\":\"Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream.\",\"ingredients\":[\"Espresso\",\"Honey\",\"Cocoa powder\"],\"measurements\":[\"Unsweetened \"]}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44317/cocktail/add/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"add",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Added",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44317/cocktail/l4016",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"l4016"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"id\":\"l4016\",\"name\":\"Meltan\",\"category\":\"Coffee / Tea\",\"glass\":\"Mug\",\"alcoholic\":\"Non alcoholic\",\"instructions\":\"Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream.\",\"ingredients\":[\"Espresso\",\"Honey\",\"Cocoa powder\"],\"measurements\":[\"Unsweetened \"]}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44317/cocktail/update/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"update",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Updated",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44317/cocktail/l4016",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"l4016"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"id\":\"l4016\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44317/cocktail/delete/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"delete",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Filter",
+			"item": [
+				{
+					"name": "Filter1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"category\":\"Soda\",\"glass\":\"Glass\",\"alcoholic\":\"Non-alcoholic\",\"ingredients\":[\"Ice\"]}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44317/cocktail/filter/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"filter",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Get Collection",
+			"item": [
+				{
+					"name": "Local Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44317/cocktail/l1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"l1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Local Get None",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44317/cocktail/LOC12345678",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"LOC12345678"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Web Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "Web Get None",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44317/cocktail/12345",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"cocktail",
+								"12345"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

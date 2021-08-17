@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<ArrayOfCocktail>
+  <Cocktail>
+    <Id>LOC1</Id>
+    <Name>MyFirstCocktail</Name>
+    <Category>Water</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alcoholic</Alcoholic>
+    <Instructions>Pour water into glass</Instructions>
+    <Ingredients>
+      <string>water</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+    </Measurements>
+  </Cocktail>
+  <Cocktail>
+    <Id>LOC2</Id>
+    <Name>Coke</Name>
+    <Category>Soda</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alcoholic</Alcoholic>
+    <Instructions>Pour coca-cola into glass with ice</Instructions>
+    <Ingredients>
+      <string>coke</string>
+      <string>ice</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+      <string>10 cubes</string>
+    </Measurements>
+  </Cocktail>
+    <Cocktail>
+    <Id>LOC3</Id>
+    <Name>Sprite</Name>
+    <Category>Soda</Category>
+    <Glass>Glass</Glass>
+    <Alcoholic>Non-Alcoholic</Alcoholic>
+    <Instructions>Pour lemon lime soda into glass with ice</Instructions>
+    <Ingredients>
+      <string>Sprite</string>
+      <string>ice</string>
+    </Ingredients>
+    <Measurements>
+      <string>1 glass</string>
+      <string>10 cubes</string>
+    </Measurements>
+  </Cocktail>
+    <Cocktail>
+    <Id>LOC4</Id>
+    <Name>Gin and Tonic</Name>
+    <Category>Mixed</Category>
+    <Glass>Highball</Glass>
+    <Alcoholic>Alcoholic</Alcoholic>
+    <Instructions>Pour gin and tonic into glass with ice</Instructions>
+    <Ingredients>
+      <string>Gin</string>
+      <string>Tonic</string>
+      <string>Ice</string>
+    </Ingredients>
+    <Measurements>
+      <string>1</string>
+      <string>1</string>
+      <string>10</string>
+    </Measurements>
+  </Cocktail>
+  <Cocktail>
+    <Id>LOC5</Id>
+    <Name>Tea</Name>
+    <Category>Tea</Category>
+    <Glass>Mug</Glass>
+    <Alcoholic>Non-Alchoholic</Alcoholic>
+    <Instructions>Pour hot water into mug with a tea bag. Remove after a few minutes</Instructions>
+    <Ingredients>
+      <string>water</string>
+      <string>tea bag</string>
+    </Ingredients>
+    <Measurements>
+      <string>500 ml</string>
+      <string>1</string>
+    </Measurements>
+  </Cocktail>
+    <Cocktail>
+    <Id>LOC1337</Id>
+    <Name>Potion</Name>
+    <Category>Magic</Category>
+    <Glass>Volumetric Flask</Glass>
+    <Alcoholic>Non-Alchoholic</Alcoholic>
+    <Instructions>Pour red liquid into flask and hope it heals you</Instructions>
+    <Ingredients>
+      <string>Red</string>
+    </Ingredients>
+    <Measurements>
+      <string>1</string>
+    </Measurements>
+  </Cocktail>
+</ArrayOfCocktail>
